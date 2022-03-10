@@ -1,0 +1,26 @@
+@media screen and (max-width: 1400px) {
+    .about-section {
+        margin: 5% 2.5% 10%;
+    }
+
+    .projects-section {
+        margin: 2.5%;
+    }
+
+    .logo-link {
+        margin-left: 1rem;
+    }
+
+    .project-title {
+        font-size: 1.5rem;
+    }
+
+    .project-link {
+        font-size: 1rem;
+        width: 40%;
+    }
+
+    .project-container {
+        margin: auto 2.5%;
+    }
+}

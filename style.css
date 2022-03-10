@@ -1,0 +1,239 @@
+@font-face {
+  font-family: 'WorkSans-Extrabold';
+  src: url('./fonts/WorkSans-ExtraBold.ttf');
+}
+
+@font-face {
+  font-family: 'WorkSans-Bold';
+  src: url('./fonts/WorkSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'WorkSans-SemiBold';
+  src: url('./fonts/WorkSans-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'WorkSans-Regular';
+  src: url('./fonts/WorkSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'WorkSans-Light';
+  src: url('./fonts/WorkSans-Light.ttf');
+}
+
+body {
+  font-size: 16px;
+}
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  box-shadow: 0px 2px 20px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto auto 100px;
+}
+
+.navbar>.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-item-container {
+  display: flex;
+}
+
+.nav-item {
+  padding: 0 50px;
+  font-family: 'WorkSans-Regular';
+}
+
+.nav-item>a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-family: 'WorkSans-Bold';
+  font-size: 1.5rem;
+}
+
+.logo-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.about-section {
+  display: flex;
+  margin: 5% 0 10%;
+}
+
+.about-description {
+  width: 40%;
+  margin-right: 10%;
+}
+
+.about-image-container {
+  width: 50%;
+}
+
+.about-image {
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+h1 {
+  font-family: 'WorkSans-Bold' !important;
+  font-size: 4rem !important;
+}
+
+.proffession {
+  font-family: 'WorkSans-Regular';
+  font-size: 2rem;
+  margin-top: 12px;
+  color: #8a8a8a;
+}
+
+.welcome {
+  font-family: 'WorkSans-Regular';
+  font-size: 1.5rem;
+  margin: 84px 0;
+}
+
+.find-me {
+  font-family: 'WorkSans-Regular';
+  font-size: 1.25rem;
+  margin-bottom: 24px;
+  color: #8a8a8a
+}
+
+.socials {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-link {
+  font-family: 'WorkSans-ExtraBold';
+  color: black;
+  font-size: 1.5rem;
+}
+
+.projects-header {
+  font-family: 'WorkSans-ExtraBold';
+  font-size: 2.5rem;
+  margin-bottom: 6rem;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-title {
+  font-size: 1.75rem;
+  font-family: 'WorkSans-SemiBold';
+  margin-bottom: 14px;
+}
+
+.project-description {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  color: #a9a9a9;
+  font-size: 1.25rem;
+}
+
+.project-image-container {
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+.project-image {
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+.project {
+  width: 25%;
+}
+
+.project-bottom {
+  margin-top: 24px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.project-link {
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  width: 30%;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'WorkSans-SemiBold';
+}
+
+.footer {
+  text-align: center;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'WorkSans-Regular';
+}
+
+/* other websites */
+.project-container {
+  max-width: 1300px;
+  margin: auto auto 100px;
+}
+
+.project-top-image-container {
+  margin: 5% 0;
+}
+
+.project-top-image {
+  border-radius: 15px;
+  max-width: 100%;
+}
+
+h2 {
+  margin-top: 2rem !important;
+  font-size: 1.875rem !important;
+  font-family: 'WorkSans-ExtraBold' !important;
+}
+
+.description {
+  margin: 1rem 0 1rem;
+  font-size: 1.25rem;
+  font-family: 'WorkSans-Light';
+  font-weight: 300 !important;
+  letter-spacing: 1px;
+  color: #a9a9a9;
+  line-height: 1.3;
+}
+
+.images-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-wrapper>.project-image {
+  border-radius: 0;
+}
+
+.row {
+  display: block;
+  text-align: center;
+}

@@ -1,0 +1,89 @@
+@media screen and (max-width: 800px) {
+
+    .logo-link {
+        margin-left: 1rem;
+    }
+
+    .nav-item {
+        padding: 1rem;
+    }
+
+    .about-section {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    h1 {
+        font-size: 2.25rem !important;
+    }
+
+    .name {
+        font-size: 2.25rem !important;
+    }
+
+    .proffession {
+        font-size: 1.5rem !important;
+        margin: .25rem 0;
+    }
+
+    .projects-section {
+        margin: 0;
+    }
+
+    .projects-container {
+        flex-direction: column;
+    }
+
+    .projects-header {
+        margin: 0 2.5%;
+        font-size: 2rem
+    }
+
+    .project {
+        width: 95%;
+        margin: 2rem auto 1.5rem;
+    }
+
+    .project-title {
+        font-size: 1.5rem !important;
+    }
+
+    .project-link {
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    .about-description {
+        width: 100%;
+        margin: 1rem 0 2rem;
+        order: 2;
+    }
+
+    .welcome {
+        width: 95%;
+        margin: 2rem 0;
+        font-size: 1.25rem;
+    }
+
+    .socials {
+        flex-direction: column;
+    }
+
+    .social-link-wrapper {
+        padding: 5px 0 1rem;
+    }
+
+    .find-me {
+        margin-bottom: .5rem;
+        font-size: 1rem;
+    }
+
+    .about-image-container {
+        width: 100%;
+        order: 1;
+    }
+
+    .description {
+        margin: 2% 0 1rem
+    }
+}
